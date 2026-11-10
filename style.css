@@ -12,3 +12,92 @@ h1 {
 h2 {
   color: blue;
 }
+
+/* General Styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f7ff;
+    color: #1e293b;
+}
+
+/* Navigation Bar */
+
+header {
+    background-color: #1e3a8a;
+    color: white;
+    padding: 20px 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+/* Welcome Section */
+
+.hero {
+    background-color: #dbeafe;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    color: #1e3a8a;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+/* Buttons */
+
+button {
+    background-color: #1e3a8a;
+    color: white;
+    border: none;
+    padding: 14px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #2563eb;
+}
+
+/* Other Sections */
+
+section:not(.hero) {
+    padding: 50px 30px;
+    text-align: center;
+}
+
+section h2 {
+    color: #1e3a8a;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
